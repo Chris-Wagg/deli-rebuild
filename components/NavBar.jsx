@@ -19,10 +19,12 @@ export default function NavBar() {
 
 	return (
 		<header className="nav-container">
-			<MenuDropDownButton />
-			<MenuDropDownButton />
-			<MenuDropDownButton />
-			<MenuDropDownButton />
+			<img src="logo" alt="logo" />
+			<section className="button-container">
+				<button>Catering</button>
+				<MenuDropDownButton />
+				<button>Contact us</button>
+			</section>
 		</header>
 	)
 }
