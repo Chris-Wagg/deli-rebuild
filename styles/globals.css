@@ -7,3 +7,110 @@ body {
 * {
 	box-sizing: border-box;
 }
+/* ------------------------ */
+/* grid classes for layouts */
+.grid-container-main {
+	grid-template:
+		'logo logo'
+		'nav-buttons nav-buttons'
+		'main-content main-content';
+}
+
+/* ------------------------ */
+/* nav bar classes */
+
+.nav-container {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+}
+
+.nav-buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+button {
+	color: #ffffff;
+	background-color: #105e04;
+	font-size: 32px;
+	border: none;
+	border-radius: 8px;
+	text-decoration: none;
+	font-weight: 900;
+	transition: scale 0.2s ease-in-out;
+}
+
+button:hover {
+	scale: 1.15;
+	cursor: pointer;
+	color: #bababa;
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+a:hover {
+	color: #bababa;
+}
+
+/* ------------------------ */
+/* Media / breakpoints */
+
+/* Tablet size */
+@media (max-width: 900px) {
+	.grid-container-large {
+		grid-template:
+			'logo logo'
+			'main-content nav-buttons';
+	}
+}
+
+/* mobile size */
+@media (max-width: 425px) {
+}
+
+@media (prefers-reduced-motion) {
+	.hidden {
+		transition: none;
+	}
+}
+
+/* ------------------------ */
+
+/* keeps the element highlighted when selected  */
+/* .dropdown-button > .link,
+.link:hover {
+	color: #aaaaaa;
+} */
+
+.dropdown-button {
+	/* used to position the dropdown section  */
+	position: relative;
+}
+
+.dropdown-menu {
+	position: absolute;
+	top: calc(100% + 5px);
+	opacity: 0; /* need to have opacity to be able to animate later  */
+	pointer-events: none; /*stops the cursor interacting with the dropdown whe it isn't visible*/
+	transform: translateY(-10px);
+	transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+}
+
+.dropdown-button.active > .link + .dropdown-menu {
+	opacity: 1;
+	transform: translateY(0);
+	pointer-events: auto;
+}
+
+.dropdown-links {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 8px;
+}
