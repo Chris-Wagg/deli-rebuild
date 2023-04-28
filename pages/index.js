@@ -1,5 +1,11 @@
-import TemporaryDrawer from '../components/TemporaryDrawer'
+import LeftDrawer from '../components/LeftDrawer'
+import NavBar from '../components/NavBar'
 
 export default function Home() {
-	return <TemporaryDrawer />
+	return (
+		<>
+			<NavBar />
+			{/* <LeftDrawer /> */}
+		</>
+	)
 }

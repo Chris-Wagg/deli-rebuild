@@ -2,7 +2,7 @@ import * as React from 'react'
 import Box from '@mui/material/Box'
 import Drawer from '@mui/material/Drawer'
 
-export default function TemporaryDrawer() {
+export default function LeftDrawer() {
 	const [state, setState] = React.useState({
 		left: false,
 	})
