@@ -12,6 +12,10 @@ export default function NavBar() {
 				<div className="drawer-button">
 					<LeftDrawer />
 				</div>
+				<div className="socials-buttons">
+					<button>Facebook</button>
+					<button>Instagram</button>
+				</div>
 			</div>
 		</nav>
 	)
