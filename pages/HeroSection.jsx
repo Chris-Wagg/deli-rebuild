@@ -8,19 +8,19 @@ export default function HeroSection() {
 					veckan. Varmt välkommen!
 				</h2>
 				<section className="opening-hours-container">
-					<p className="opening-hours-text">
+					<div className="opening-hours-text">
 						<p>Öppet:</p>
 						<p>måndag - fredag 8-21</p>
 						<p>lördag 11-21</p>
 						<p>söndag 11-20</p>
-					</p>
+					</div>
 				</section>
-				<section className="image-container">
+				{/* <section className="image-container">
 					<img src="" alt="" />
 					<img src="" alt="" />
 					<img src="" alt="" />
 					<img src="" alt="" />
-				</section>
+				</section> */}
 			</section>
 		</>
 	)

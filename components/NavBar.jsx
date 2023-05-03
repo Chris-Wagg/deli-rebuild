@@ -8,7 +8,10 @@ export default function NavBar() {
 				<button>Home</button>
 				<button>Menu</button>
 				<button>Catering</button>
-				{/* <button>Contact</button> */}
+				{/* scroll down to catering section here */}
+
+				<button>Contact</button>
+				{/* make contact scroll down to the footer where all the contact info will be */}
 				{/* <div className="drawer-button">
 					<LeftDrawer />
 				</div> */}

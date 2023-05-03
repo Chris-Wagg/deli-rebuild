@@ -45,3 +45,14 @@ code {
 .menu-container {
 	border: var(--border);
 }
+
+/* catering section */
+.catering-container {
+	border: var(--border);
+}
+
+/* footer */
+
+.footer {
+	border: var(--border);
+}
