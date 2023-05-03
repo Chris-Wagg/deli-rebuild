@@ -7,14 +7,6 @@ export default function HeroSection() {
 					Smit in för en frukost, lunch eller middag. Vi har öppet alla dagar i
 					veckan. Varmt välkommen!
 				</h2>
-				<section className="opening-hours-container">
-					<div className="opening-hours-text">
-						<p>Öppet:</p>
-						<p>måndag - fredag 8-21</p>
-						<p>lördag 11-21</p>
-						<p>söndag 11-20</p>
-					</div>
-				</section>
 				{/* <section className="image-container">
 					<img src="" alt="" />
 					<img src="" alt="" />
