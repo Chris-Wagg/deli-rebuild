@@ -7,11 +7,11 @@ export default function NavBar() {
 			<div className="nav-buttons-container">
 				<button>Home</button>
 				<button>Menu</button>
-				<button>Catering/ Events</button>
-				<button>Contact</button>
-				<div className="drawer-button">
+				<button>Catering</button>
+				{/* <button>Contact</button> */}
+				{/* <div className="drawer-button">
 					<LeftDrawer />
-				</div>
+				</div> */}
 				<div className="socials-buttons">
 					<button>Facebook</button>
 					<button>Instagram</button>

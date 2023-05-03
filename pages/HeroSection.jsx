@@ -15,6 +15,12 @@ export default function HeroSection() {
 						<p>söndag 11-20</p>
 					</p>
 				</section>
+				<section className="image-container">
+					<img src="" alt="" />
+					<img src="" alt="" />
+					<img src="" alt="" />
+					<img src="" alt="" />
+				</section>
 			</section>
 		</>
 	)
