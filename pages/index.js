@@ -1,5 +1,5 @@
 import Footer from '../components/Footer'
-import ImageSlider from '../components/ImageSlider'
+
 import LeftDrawer from '../components/LeftDrawer'
 import NavBar from '../components/NavBar'
 import BreakfastMenu from './BreakfastMenu'
@@ -10,7 +10,7 @@ export default function Home() {
 		<>
 			<NavBar />
 			<HeroSection />
-			<ImageSlider />
+
 			<BreakfastMenu />
 			{/* <LeftDrawer /> */}
 			<Footer />
