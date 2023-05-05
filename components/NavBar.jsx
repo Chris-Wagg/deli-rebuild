@@ -3,7 +3,9 @@ import LeftDrawer from './LeftDrawer'
 export default function NavBar() {
 	return (
 		<nav className="navbar-container">
-			<div className="logo-container">Funkadeli</div>
+			{/* <div className="logo-container">
+				<img src="funkadeli-logo.png" alt="funkadeli logo" />
+			</div> */}
 			<div className="nav-buttons-container">
 				<button>Home</button>
 				<button>Menu</button>

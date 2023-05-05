@@ -12,19 +12,23 @@ code {
 	--border: 1px dashed red;
 }
 
+button {
+}
+
 /* Nav bar */
 
 .navbar-container {
 	width: 100vw;
 	height: 50px;
 	display: flex;
-	justify-content: space-around;
+	justify-content: flex-end;
 	align-items: center;
 	border: var(--border);
 }
 
-.logo-container {
-	border: var(--border);
+.logo-container > img {
+	/* border: var(--border); */
+	width: 300px;
 }
 
 .nav-buttons-container {
@@ -32,6 +36,7 @@ code {
 	/* justify-content: space-between; */
 	gap: 20px;
 	border: var(--border);
+	margin-right: 50px;
 }
 
 /* hero section */
