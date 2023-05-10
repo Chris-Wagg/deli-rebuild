@@ -7,11 +7,13 @@ body {
 
 :root {
 	--border: 1px dashed red;
-	--main-background: #105e04;
+	--button-background: #105e04;
+	--main-background: #252525;
+	--secondary-background: #333333;
 }
 
 button {
-	background-color: var(--main-background);
+	background-color: var(--button-background);
 	color: white;
 	border: 1px solid white;
 	border-radius: 5px;
@@ -20,9 +22,15 @@ button {
 	text-align: center;
 }
 
+.image-container {
+	width: 50vw;
+	height: 75vh;
+}
+
 img {
 	width: 50vw;
 	height: 75vh;
+	object-fit: cover;
 }
 
 /* Nav bar */
@@ -34,7 +42,7 @@ img {
 	justify-content: flex-end;
 	align-items: center;
 	border: var(--border);
-	background-color: var(--main-background);
+	background-color: var(--button-background);
 }
 
 .nav-buttons-container {
@@ -52,10 +60,10 @@ img {
 	display: flex;
 }
 
-.hero-text-container {
+.text-container {
 	width: 50vw;
 	height: 75vh;
-	background-color: #252525;
+	background-color: var(--main-background);
 	color: white;
 	display: flex;
 	flex-direction: column;
@@ -86,6 +94,10 @@ img {
 
 .menu-container {
 	border: var(--border);
+	background-color: var(--secondary-background);
+	color: white;
+	display: flex;
+	flex-direction: row-reverse;
 }
 
 /* catering section */

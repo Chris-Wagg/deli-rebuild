@@ -5,7 +5,7 @@ export default function HeroSection() {
 		<>
 			<section className="hero-container">
 				{/* logo should go here */}
-				<div className="hero-text-container">
+				<div className="text-container">
 					<h1 className="hero-text">Den mysiga Delin på Gärdet</h1>
 					<h2 className="info-text">
 						Smit in för en frukost, lunch eller middag. Vi har öppet alla dagar
@@ -25,7 +25,7 @@ export default function HeroSection() {
 						<button>Catering</button>
 					</div>
 				</div>
-				<div>
+				<div className="image-container">
 					<img src="food-3.jpg" alt="food-1-image" />
 				</div>
 			</section>
