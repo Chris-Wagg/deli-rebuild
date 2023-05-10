@@ -23,12 +23,11 @@ button {
 }
 
 .image-container {
-	width: 50vw;
 	height: 75vh;
 }
 
 img {
-	width: 50vw;
+	/* width: 50vw; */
 	height: 75vh;
 	object-fit: cover;
 }
@@ -61,11 +60,13 @@ img {
 }
 
 .text-container {
-	width: 50vw;
+	/* width: 50vw; */
+
 	height: 75vh;
 	background-color: var(--main-background);
 	color: white;
 	display: flex;
+	flex: auto;
 	flex-direction: column;
 	justify-content: space-evenly;
 	align-items: center;
@@ -93,7 +94,7 @@ img {
 /* breakfast menu */
 
 .menu-container {
-	border: var(--border);
+	/* border: var(--border); */
 	background-color: var(--secondary-background);
 	color: white;
 	display: flex;
