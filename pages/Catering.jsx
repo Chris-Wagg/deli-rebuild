@@ -4,9 +4,8 @@ export default function Catering() {
 	return (
 		<>
 			<section className="catering-container">
-				<div className="breakfast-package">
-					{/* put these in a details to take up less space */}
-					<details>
+				<div className="details-container">
+					<details open>
 						<summary>STORA FRUKOSTPAKETET</summary>
 						<ul>
 							<p>Bokas 2 dagar innan,minimum 8 pers mellan 8.00-10.30</p>
@@ -20,7 +19,7 @@ export default function Catering() {
 						</ul>
 					</details>
 				</div>
-				<div className="buffet-container">
+				<div className="details-container">
 					<details>
 						<summary>LILLA BUFFEN</summary>
 						<ul>
@@ -34,8 +33,10 @@ export default function Catering() {
 							<p>175 kr per person</p>
 						</ul>
 					</details>
+				</div>
+				<div className="details-container">
 					<details>
-						<summary>Small Student buffet</summary>
+						<summary>Lite Student buffet</summary>
 						<ul>
 							<li>Skagen canapé</li>
 							<li>Varmrökt lax med forellromskräm</li>
@@ -47,8 +48,10 @@ export default function Catering() {
 							<p>245 kr per person minst 10 personer</p>
 						</ul>
 					</details>
+				</div>
+				<div className="details-container">
 					<details>
-						<summary>Large Student buffet</summary>
+						<summary>Stor Student buffet</summary>
 						<ul>
 							<p>everything from the Small buffet plus the following</p>
 							<li>+ Tunnbrödsnitt med kallrökt lax & färskost</li>
