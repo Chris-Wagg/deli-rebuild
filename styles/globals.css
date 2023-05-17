@@ -107,23 +107,20 @@ h2 {
 
 /* catering section */
 .catering-container {
-	border: var(--border);
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	justify-items: center;
-	background-color: var(--main-background);
-	color: white;
-}
-
-details {
-	display: flex;
-	justify-content: center;
-}
-
-ul {
+	/* border: var(--border); */
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	align-items: center;
+	background-color: var(--main-background);
+	color: white;
+	padding-bottom: 50px;
+}
+
+.accordion {
+	background-color: var(--button-background);
+	border: 1px solid white;
+	color: white;
+	width: 50vw;
 }
 
 /* footer */

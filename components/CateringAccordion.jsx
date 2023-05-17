@@ -2,17 +2,19 @@ import * as React from 'react'
 import Accordion from '@mui/material/Accordion'
 import AccordionSummary from '@mui/material/AccordionSummary'
 import AccordionDetails from '@mui/material/AccordionDetails'
-import Typography from '@mui/material/Typography'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
+import { grey } from '@mui/material/colors'
 
 export default function CateringAccordion() {
 	return (
 		<div>
-			<Accordion>
-				<AccordionSummary expandIcon={<ExpandMoreIcon />}>
+			<Accordion className="accordion">
+				<AccordionSummary
+					expandIcon={<ExpandMoreIcon sx={{ color: grey[50] }} />}
+				>
 					STORA FRUKOSTPAKETET
 				</AccordionSummary>
-				<AccordionDetails>
+				<AccordionDetails className="catering-items">
 					<ul>
 						<p>Bokas 2 dagar innan,minimum 8 pers mellan 8.00-10.30</p>
 						<li> Surdegsfralla med ost / skinka / kalkon</li>
@@ -25,11 +27,13 @@ export default function CateringAccordion() {
 					</ul>
 				</AccordionDetails>
 			</Accordion>
-			<Accordion>
-				<AccordionSummary expandIcon={<ExpandMoreIcon />}>
+			<Accordion className="accordion">
+				<AccordionSummary
+					expandIcon={<ExpandMoreIcon sx={{ color: grey[50] }} />}
+				>
 					LILLA BUFFEN
 				</AccordionSummary>
-				<AccordionDetails>
+				<AccordionDetails className="catering-items">
 					<ul>
 						<li> Fetaostpaj</li>
 						<li> Skinka & ostpaj</li>
@@ -42,11 +46,13 @@ export default function CateringAccordion() {
 					</ul>
 				</AccordionDetails>
 			</Accordion>
-			<Accordion>
-				<AccordionSummary expandIcon={<ExpandMoreIcon />}>
+			<Accordion className="accordion">
+				<AccordionSummary
+					expandIcon={<ExpandMoreIcon sx={{ color: grey[50] }} />}
+				>
 					LILLA STUDENT BUFFEN
 				</AccordionSummary>
-				<AccordionDetails>
+				<AccordionDetails className="catering-items">
 					<ul>
 						<li>Skagen canapé</li>
 						<li>Varmrökt lax med forellromskräm</li>
@@ -59,11 +65,13 @@ export default function CateringAccordion() {
 					</ul>
 				</AccordionDetails>
 			</Accordion>
-			<Accordion>
-				<AccordionSummary expandIcon={<ExpandMoreIcon />}>
+			<Accordion className="accordion">
+				<AccordionSummary
+					expandIcon={<ExpandMoreIcon sx={{ color: grey[50] }} />}
+				>
 					STORA STUDENT BUFFEN
 				</AccordionSummary>
-				<AccordionDetails>
+				<AccordionDetails className="catering-items">
 					<ul>
 						<p>everything from the Small buffet plus the following</p>
 						<li>+ Tunnbrödsnitt med kallrökt lax & färskost</li>

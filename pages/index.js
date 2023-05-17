@@ -15,8 +15,8 @@ export default function Home() {
 
 			<BreakfastMenu />
 			{/* <LeftDrawer /> */}
-			{/* <Catering /> */}
-			<CateringAccordion />
+			<Catering />
+			{/* <CateringAccordion /> */}
 
 			<Footer />
 		</>
