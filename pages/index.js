@@ -1,3 +1,4 @@
+import CateringAccordion from '../components/CateringAccordion'
 import Footer from '../components/Footer'
 
 import LeftDrawer from '../components/LeftDrawer'
@@ -14,7 +15,8 @@ export default function Home() {
 
 			<BreakfastMenu />
 			{/* <LeftDrawer /> */}
-			<Catering />
+			{/* <Catering /> */}
+			<CateringAccordion />
 
 			<Footer />
 		</>
