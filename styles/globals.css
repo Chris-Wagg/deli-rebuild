@@ -95,14 +95,20 @@ h2 {
 	gap: 15px;
 }
 
-/* breakfast menu */
+/* drawer classes */
+/* https://mui.com/material-ui/api/drawer/#css */
 
-.menu-container {
-	/* border: var(--border); */
+.MuiDrawer-paperAnchorLeft {
 	background-color: var(--secondary-background);
+}
+
+/* menu section */
+
+.menu-accordion {
+	background-color: var(--button-background);
+	border: 1px solid white;
 	color: white;
-	display: flex;
-	flex-direction: row-reverse;
+	/* width: 50vw; */
 }
 
 /* catering section */

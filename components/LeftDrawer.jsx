@@ -1,6 +1,7 @@
 import * as React from 'react'
 import Box from '@mui/material/Box'
 import Drawer from '@mui/material/Drawer'
+import MenuAccordion from './MenuAccordion'
 
 export default function LeftDrawer() {
 	const [state, setState] = React.useState({
@@ -32,7 +33,7 @@ export default function LeftDrawer() {
 						onClose={toggleDrawer(anchor, false)}
 					>
 						{list(anchor)}
-						<button>jeff</button>
+						<MenuAccordion />
 					</Drawer>
 				</React.Fragment>
 			))}
