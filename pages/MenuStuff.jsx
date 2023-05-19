@@ -1,4 +1,4 @@
-export default function BreakfastMenu() {
+export default function MenuStuff() {
 	return (
 		<>
 			<section className="menu-container">

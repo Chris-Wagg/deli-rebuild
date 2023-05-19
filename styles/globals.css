@@ -85,6 +85,11 @@ h2 {
 	font-family: 'Roboto', sans-serif;
 }
 
+h3 {
+	padding: 20px;
+	margin: 0;
+}
+
 .hero-text + .info-text {
 	width: 80%;
 	text-align: center;
@@ -104,11 +109,16 @@ h2 {
 
 /* menu section */
 
+.menu-container {
+	display: flex;
+	flex-direction: row-reverse;
+	flex: auto;
+}
+
 .menu-accordion {
 	background-color: var(--button-background);
 	border: 1px solid white;
 	color: white;
-	/* width: 50vw; */
 }
 
 /* catering section */
@@ -132,5 +142,19 @@ h2 {
 /* footer */
 
 .footer {
-	border: var(--border);
+	/* border: var(--border); */
+	background-color: var(--secondary-background);
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+
+.contact-info-container {
+	width: 80vw;
+	display: flex;
+	justify-content: center;
+}
+
+a {
+	color: white;
 }

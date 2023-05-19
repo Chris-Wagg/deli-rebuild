@@ -1,22 +1,19 @@
 export default function Footer() {
 	return (
 		<footer className="footer">
-			<h1>footer</h1>
-			<section className="opening-hours-container">
-				<div className="opening-hours-text">
-					<ul>
-						<li>Öppet:</li>
-						<li>måndag - fredag 8-21</li>
-						<li>lördag 11-21</li>
-						<li>söndag 11-20</li>
-					</ul>
+			<section>
+				<div className="contact-info-container">
+					<h3>Contact us here :</h3>
+					<h3>
+						Email:
+						<a href="mailto:info@funkalistic.se">info@funkalistic.se |</a>
+					</h3>
+					<h3>Phone: 08-660 85 55 |</h3>
+					<h3>Sandhamnsgatan 39, 11528 Stockholm |</h3>
 				</div>
+				{/* <h3>work with us?</h3> */}
+				{/* will need a login button here potentially for the admin side of the site */}
 			</section>
-			<div>Email: </div>
-			<div>Phone: 08-660 85 55</div>
-			<div>Adress: Sandhamnsgatan 39, 11528 Stockholm</div>
-			<div>work with us?</div>
-			{/* will need a login button here potentially for the admin side of the site */}
 		</footer>
 	)
 }
