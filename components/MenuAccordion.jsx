@@ -12,7 +12,7 @@ export default function MenuAccordion() {
 				<AccordionSummary
 					expandIcon={<ExpandMoreIcon sx={{ color: grey[50] }} />}
 				>
-					Lunch Meny
+					Lunch Meny | kl 11:00 - 14:30
 				</AccordionSummary>
 				<AccordionDetails>
 					<img src="lunch-menu.jpg" alt="Lunch Menu" />
@@ -22,7 +22,7 @@ export default function MenuAccordion() {
 				<AccordionSummary
 					expandIcon={<ExpandMoreIcon sx={{ color: grey[50] }} />}
 				>
-					Kvells Meny
+					Kvells Meny | Fran kl 17:00
 				</AccordionSummary>
 				<AccordionDetails>
 					<img src="dinner-menu.jpg" alt="Dinner Menu" />
