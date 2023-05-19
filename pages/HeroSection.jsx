@@ -14,10 +14,10 @@ export default function HeroSection() {
 					<div className="opening-hours-text">
 						<ul>
 							Öppet:
-							<div>Måndag - Tisdag 8-15</div>
-							<div>Onsdag - fredag 8-21</div>
-							<div>lördag 11-21</div>
-							<div>söndag 11-20</div>
+							<li>Måndag - Tisdag 8-15</li>
+							<li>Onsdag - Fredag 8-21</li>
+							<li>Lördag 11-21</li>
+							<li>Söndag 11-20</li>
 						</ul>
 					</div>
 					<div className="button-container">

@@ -16,12 +16,23 @@ body {
 
 button {
 	background-color: var(--button-background);
-	color: white;
-	border: 1px solid white;
+	color: whitesmoke;
+	border: 1px solid whitesmoke;
 	border-radius: 5px;
 	font-size: 18px;
 	padding: 6px 30px 6px 30px;
 	text-align: center;
+}
+
+h1 {
+	font-size: 48px;
+	font-family: 'Playfair Display', serif;
+}
+
+h2 {
+	font-size: 16px;
+	font-weight: 300;
+	font-family: 'Roboto', sans-serif;
 }
 
 .image-container {
@@ -66,7 +77,7 @@ img {
 
 	height: 75vh;
 	background-color: var(--main-background);
-	color: white;
+	color: whitesmoke;
 	display: flex;
 	flex: auto;
 	flex-direction: column;
@@ -74,30 +85,20 @@ img {
 	align-items: center;
 }
 
-h1 {
-	font-size: 48px;
-	font-family: 'Playfair Display', serif;
-}
-
-h2 {
-	font-size: 16px;
-	font-weight: 300;
-	font-family: 'Roboto', sans-serif;
-}
-
-h3 {
-	padding: 20px;
-	margin: 0;
-}
-
 .hero-text + .info-text {
-	width: 80%;
 	text-align: center;
 }
 
 .button-container {
 	display: flex;
 	gap: 15px;
+}
+
+li {
+	list-style: none;
+	padding: 5px;
+	/* font-size: 20px; */
+	font-weight: 500;
 }
 
 /* drawer classes */
@@ -117,8 +118,8 @@ h3 {
 
 .menu-accordion {
 	background-color: var(--button-background);
-	border: 1px solid white;
-	color: white;
+	border: 1px solid whitesmoke;
+	color: whitesmoke;
 }
 
 /* catering section */
@@ -128,14 +129,14 @@ h3 {
 	flex-direction: column;
 	align-items: center;
 	background-color: var(--main-background);
-	color: white;
+	color: whitesmoke;
 	padding-bottom: 50px;
 }
 
 .accordion {
 	background-color: var(--button-background);
-	border: 1px solid white;
-	color: white;
+	border: 1px solid whitesmoke;
+	color: whitesmoke;
 	width: 50vw;
 }
 
@@ -143,8 +144,8 @@ h3 {
 
 .footer {
 	/* border: var(--border); */
-	background-color: var(--secondary-background);
-	color: white;
+	background-color: var(--main-background);
+	color: whitesmoke;
 	display: flex;
 	justify-content: center;
 }
@@ -153,8 +154,15 @@ h3 {
 	width: 80vw;
 	display: flex;
 	justify-content: center;
+	border-top: 1px solid whitesmoke;
 }
 
 a {
-	color: white;
+	color: whitesmoke;
+}
+
+.contact-info-container > p {
+	font-size: 20px;
+	font-weight: 700;
+	padding: 20px;
 }
